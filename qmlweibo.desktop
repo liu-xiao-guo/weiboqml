@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=qmlweibo
+Exec=qmlscene $@ Main.qml
+Icon=qml-weibo.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+

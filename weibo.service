@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+  <type>sharing</type>
+  <name>Weibo QML</name>
+  <icon>qml-weibo.png</icon>
+  <provider>qml-weibo.ubuntu_plugin</provider>
+  <translations>unity-scope-weibo</translations>
+</service>

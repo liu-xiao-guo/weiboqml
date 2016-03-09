@@ -1,0 +1,21 @@
+{
+    "name": "qml-weibo.ubuntu",
+    "description": "description of qml-weibo",
+    "architecture": "all",
+    "title": "qml-weibo",
+    "hooks": {
+        "qmlweibo": {
+            "account-application": "weibo.application",
+            "account-service": "weibo.service",
+            "apparmor": "qmlweibo.apparmor",
+            "desktop": "qmlweibo.desktop"
+        },
+        "plugin": {
+            "account-provider": "plugin/qml-weibo.ubuntu_plugin.provider",
+            "account-qml-plugin": "plugin/qml"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework": "ubuntu-sdk-14.10"
+}
